@@ -4661,49 +4661,55 @@ input, select, textarea {
    }
 
    .video #rubik{
-		background-image: url(/assets/images/WorkCarousel/rubikIMG.png);
+		background-image: url(/assets/images/WorkCarousel/rubikIMG.jpg);
 		height: 100%;
 		width: 100%;
    }
 
    .video #leopard{
-		background-image: url(/assets/images/WorkCarousel/leopardIMG.png);
+		background-image: url(/assets/images/WorkCarousel/leopardIMG.jpg);
 		height: 100%;
 		width: 100%;
 	}
 
 	.video #toxic{
-		background-image: url(/assets/images/WorkCarousel/toxicIMG.png);
+		background-image: url(/assets/images/WorkCarousel/toxicIMG.jpg);
 		height: 100%;
 		width: 100%;
    	}
 	
 	.video #sm0lFace{
-		background-image: url(/assets/images/WorkCarousel/sm0lFaceIMG.png);
+		background-image: url(/assets/images/WorkCarousel/sm0lFaceIMG.jpg);
 		height: 100%;
 		width: 100%;
    	}
 	
 	.video #nightclub{
-		background-image: url(/assets/images/WorkCarousel/nightclubIMG.png);
+		background-image: url(/assets/images/WorkCarousel/nightclubIMG.jpg);
 		height: 100%;
 		width: 100%;
    }
    	
 	.video #spaceHair{
-		background-image: url(/assets/images/WorkCarousel/spaceHairIMG.png);
+		background-image: url(/assets/images/WorkCarousel/spaceHairIMG.jpg);
 		height: 100%;
 		width: 100%;
    }
 
    .video #neonSale{
-	background-image: url(/assets/images/WorkCarousel/neonSaleIMG.png);
+	background-image: url(/assets/images/WorkCarousel/neonSaleIMG.jpg);
 	height: 100%;
 	width: 100%;
 	}
 
    .video #morningMist{
-	background-image: url(/assets/images/WorkCarousel/morningMistIMG.png);
+	background-image: url(/assets/images/WorkCarousel/morningMistIMG.jpg);
+	height: 100%;
+	width: 100%;
+	}
+	
+    .video #hiddenGems{
+	background-image: url(/assets/images/WorkCarousel/hiddenGemsIMG.jpg);
 	height: 100%;
 	width: 100%;
 	}
