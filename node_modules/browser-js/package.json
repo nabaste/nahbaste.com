@@ -1,0 +1,27 @@
+{
+  "name": "browser-js",
+  "version": "1.10.1",
+  "description": "A sugar to handle your browser.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kud/browser-js.git"
+  },
+  "scripts": {
+    "postinstall": "ln -fs $(pwd)/index.js $(pwd)/tests/",
+    "server": "./node_modules/http-server/bin/http-server tests -o -p 8080"
+  },
+  "keywords": [
+    "browser",
+    "sugar"
+  ],
+  "author": "Erwann Mest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kud/browser-js/issues"
+  },
+  "homepage": "http://mdwn.in/gh/kud/browser-js",
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  }
+}
