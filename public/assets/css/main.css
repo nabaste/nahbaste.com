@@ -4755,6 +4755,6 @@ input, select, textarea {
 }
 
 .inner.tictactoe .actions.special{
-	/* position: relative; */
-	margin-top: 50vh;
+	position: absolute;
+	margin-top: 80vh;
 }
