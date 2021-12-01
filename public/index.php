@@ -2,70 +2,14 @@
 <html lang="en">
 
 <head>
-	<title>Nahuel Basterretche - Designer & Developer</title>
-	<meta name="title" content="Nahuel Basterretche - Designer & Developer">
-	<meta name="description"
-		content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences.">
-	<!-- Google Tag Manager -->
-	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-T5Q6B7D');</script>
-	<!-- End Google Tag Manager -->
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.nahbaste.com/">
-	<meta property="og:title" content="Nahuel Basterretche - Designer & Developer">
-	<meta property="og:description"
-		content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences.">
-	<meta property="og:image" content="https://wwww.nahbaste.com/metatags.png">
-	<meta property="fb:app_id" content="950828529106312" />
-
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://www.nahbaste.com/">
-	<meta property="twitter:title" content="Nahuel Basterretche - Designer & Developer">
-	<meta property="twitter:description"
-		content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences.">
-	<meta property="twitter:image" content="https://www.nahbaste.com/metatags.png">
-
-	<link rel="canonical" href="https://www.nahbaste.com/" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="robots" content="index, follow">
-
-	<!-- Style -->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-	<!-- FavIcons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+<?php require $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
+<!-- Style -->
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript>
+	<link rel="stylesheet" href="assets/css/noscript.css" />
+</noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body class="landing is-preload" id="body">
@@ -102,36 +46,9 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<h2><a href="index.html">Nahuel Basterretche</a></h2>
+			<h2><a href="https://www.nahbaste.com/">Nahuel Basterretche</a></h2>
 			<nav id="nav">
-				<ul>
-					<li class="special">
-						<a href="#menu" class="menuToggle"><span>More</span></a>
-						<div id="menu">
-							<ul>
-								<li><a href="./index.html">Home</a></li>
-								<li><a href="Work/index.html">Work</a></li>
-								<li><a href="Blog/index.html">Blog</a></li>
-								<li><a href="About/index.html">About me</a></li>
-								<li><a id="playButton" href="#">Play with this website</a></li>
-							</ul>
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/nahbaste/" target=”_blank”
-										class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.behance.net/nahbaste" target=”_blank”
-										class="icon brands fa-behance"><span class="label">Behance</span></a></li>
-								<li><a href="https://www.instagram.com/nahbaste" target=”_blank”
-										class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" target=”_blank” class="icon brands fa-github"><span
-											class="label">Github</span></a></li>
-								<li><a href="mailto:contact@nahbaste.com" target=”_blank”
-										class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<div class="gui" id="play">
-							</div>
-						</div>
-					</li>
-				</ul>
+				<?php require $_SERVER['DOCUMENT_ROOT'].'/nav.php';?>
 			</nav>
 		</header>
 
@@ -187,18 +104,18 @@
 						<h3>Branded user generated content</h3>
 						<p>By sharing their branded content, users act as an ambassador for brands. This kind of
 							endorsement is
-							invaluable for brands and an unique posibility of AR</p>
+							invaluable for brands and an unique posibility of XR</p>
 					</li>
 					<li class="icon solid fa-tags">
 						<h3>Enhanced Shopping Experience</h3>
-						<p>Augmented Reality bridges the digital and in store experiences together, offering quick
+						<p>Mixed Reality bridges the digital and in store experiences together, offering quick
 							product information and
 							allowing brands to present a coherent image to customers </p>
 					</li>
 					<li class="icon solid fa-heart">
 						<h3>Emotional Connection</h3>
-						<p>The immersion of Augmented Reality experiences helps create a certain emotional connection
-							with customers. Unlike images or banners, XR is interactive and lifelike: consumers can see
+						<p>The immersion of Mixed Reality experiences helps create a certain emotional connection
+							with customers. Unlike images or banners, AR is interactive and lifelike: consumers can see
 							and interact
 							with the products and campaigns.</p>
 					</li>
@@ -326,7 +243,7 @@
 			<div class="inner">
 				<header>
 					<h2>Have I sparked your interest?</h2>
-					<p>Let’s have a discovery call and figure out how XR can benefit your project.</p>
+					<p>Let’s have a discovery call and figure out how Mixed Reality can benefit your project.</p>
 				</header>
 
 				<form method="post" action="https://formsubmit.co/contact@nahbaste.com">
@@ -353,25 +270,7 @@
 
 		<!-- Footer -->
 		<footer id="footer">
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/nahbaste/" target=”_blank”
-						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://www.behance.net/nahbaste" target=”_blank” class="icon brands fa-behance"><span
-							class="label">Behance</span></a></li>
-				<li><a href="https://www.instagram.com/nahbaste" target=”_blank” class="icon brands fa-instagram"><span
-							class="label">Instagram</span></a></li>
-				<li><a href="https://www.github.com/nabaste" target=”_blank” class="icon brands fa-github"><span class="label">Github</span></a>
-				</li>
-				<li><a href="mailto:contact@nahbaste.com" target=”_blank” class="icon solid fa-envelope"><span
-							class="label">Email</span></a>
-				</li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; nahbaste</li>
-				<li>Designed & developed by Nahuel Basterretche using some <a
-						href="About/index.html#useful-resources">useful
-						resources</a></li>
-			</ul>
+			<?php require $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
 		</footer>
 
 	</div>

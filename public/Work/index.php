@@ -3,43 +3,7 @@
 <html>
 
 <head>
-    <title>Nahuel Basterretche - Designer & Developer</title>
-    <meta name="title" content="Nahuel Basterretche - Designer & Developer">
-    <meta name="description"
-        content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences">
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T5Q6B7D');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.nahbaste.com/">
-    <meta property="og:title" content="Nahuel Basterretche - Designer & Developer">
-    <meta property="og:description"
-        content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences.">
-    <meta property="og:image" content="https://wwww.nahbaste.com/metatags.png">
-    <meta property="fb:app_id" content="950828529106312" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.nahbaste.com/">
-    <meta property="twitter:title" content="Nahuel Basterretche - Designer & Developer">
-    <meta property="twitter:description"
-        content="Nahbaste is Nahuel Basterretche, an XR designer and developer from Buenos Aires. He specializes in Instagram Filters and 3D interactive experiences.">
-    <meta property="twitter:image" content="https://www.nahbaste.com/metatags.png">
-
-
-    <link rel="canonical" href="https://www.nahbaste.com/" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="robots" content="index, follow">
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
 
     <!-- Style -->
     <link rel="stylesheet" href="../assets/css/main2.css" />
@@ -49,24 +13,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- FavIcons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="../manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="landing is-preload">
@@ -80,33 +26,9 @@
 
         <!-- Header -->
         <header id="header" class="alt">
-            <h1><a href="../index.html">Nahuel Basterretche</a></h1>
+            <h1><a href="https://www.nahbaste.com/">Nahuel Basterretche</a></h1>
             <nav id="nav">
-                <ul>
-                    <li class="special">
-                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
-                        <div id="menu">
-                            <ul>
-                                <li><a href="../index.html">Home</a></li>
-                                <li><a href="../Work/index.html">Work</a></li>
-                                <li><a href="../Blog/index.html">Blog</a></li>
-                                <li><a href="../About/index.html">About me</a></li>
-                            </ul>
-                            <ul class="icons">
-                                <li><a href="https://www.linkedin.com/in/nahbaste/" target=”_blank”
-                                        class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                <li><a href="https://www.behance.net/nahbaste" target=”_blank”
-                                        class="icon brands fa-behance"><span class="label">Behance</span></a></li>
-                                <li><a href="https://www.instagram.com/nahbaste" target=”_blank”
-                                        class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="#" target=”_blank” class="icon brands fa-github"><span
-                                            class="label">Github</span></a></li>
-                                <li><a href="mailto:contact@nahbaste.com" target=”_blank”
-                                        class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <?php require $_SERVER['DOCUMENT_ROOT'].'/nav.php';?>
             </nav>
         </header>
 
@@ -114,7 +36,7 @@
         <section id="banner" class="small">
             <div class="inner">
 
-                <a href="../index.html"> <img src="../assets/logosmall.svg" alt="nahbaste-logo"
+                <a href="https://www.nahbaste.com/"> <img src="../assets/logosmall.svg" alt="nahbaste-logo"
                         class="nahbasteLogo"></a>
                 <div id="main">
                     <div id="section">
@@ -143,9 +65,9 @@
                     <section>
                         <div class="box alt">
                             <div class="row gtr-50 gtr-uniform">
-                                <div class="col-6"><span class="image fit"><a href="https://www.nahbaste.com/Grok"><img
+                                <div class="col-6"><span class="image fit"><a href="../Grok"><img
                                                 src="../assets/images/WorkGrid/grok.jpg" alt="" /></a></span></div>
-                                <div class="col-6"><span class="image fit"><a href="https://www.nahbaste.com/tictactoe"><img
+                                <div class="col-6"><span class="image fit"><a href="../tictactoe"><img
                                                 src="../assets/images/WorkGrid/ticTacToe.jpg" alt="" /></a></span></div>
                                 <div class="col-3"><span class="image fit"><a
                                             href="https://www.instagram.com/p/CT3P-6UAxob/"><img
@@ -193,18 +115,18 @@
                                 <div class="col-3"><span class="image fit"><a
                                             href="https://www.instagram.com/ar/1142549559538561/"><img src=""
                                                 alt="" /></a></span></div>
-                                <div class="col-4"><span class="image fit"><a href="sync.html"><img
+                                <div class="col-4"><span class="image fit"><a href="sync"><img
                                                 src="../assets/images/WorkGrid/sync.jpg" alt="" /></a></span></div>
-                                <div class="col-4"><span class="image fit"><a href="biquex.html"><img
+                                <div class="col-4"><span class="image fit"><a href="biquex"><img
                                                 src="../assets/images/WorkGrid/biquex.jpg" alt="" /></a></span></div>
-                                <div class="col-4"><span class="image fit"><a href="advance.html"><img
+                                <div class="col-4"><span class="image fit"><a href="advance"><img
                                                 src="../assets/images/WorkGrid/advance.jpg" alt="" /></a></span></div>
-                                <div class="col-4"><span class="image fit"><a href="oven.html"><img
+                                <div class="col-4"><span class="image fit"><a href="oven"><img
                                                 src="../assets/images/WorkGrid/oven.jpg" alt="" /></a></span></div>
-                                <div class="col-4"><span class="image fit"><a href="impObj1.html"><img
+                                <div class="col-4"><span class="image fit"><a href="impObj1"><img
                                                 src="../assets/images/WorkGrid/impObj1Cover.jpg" alt="" /></a></span>
                                 </div>
-                                <div class="col-4"><span class="image fit"><a href="impObj2.html"><img
+                                <div class="col-4"><span class="image fit"><a href="impObj2"><img
                                                 src="../assets/images/WorkGrid/impObj2Cover.jpg" alt="" /></a></span>
                                 </div>
                             </div>
@@ -219,24 +141,7 @@
         <!-- Footer -->
 
         <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/nahbaste/" target=”_blank”
-                        class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://www.behance.net/nahbaste" target=”_blank” class="icon brands fa-behance"><span
-                            class="label">Behance</span></a></li>
-                <li><a href="https://www.instagram.com/nahbaste" target=”_blank” class="icon brands fa-instagram"><span
-                            class="label">Instagram</span></a></li>
-                <li><a href="#" target=”_blank” class="icon brands fa-github"><span class="label">Github</span></a>
-                </li>
-                <li><a href="mailto:contact@nahbaste.com" target=”_blank” class="icon solid fa-envelope"><span
-                            class="label">Email</span></a>
-                </li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; nahbaste</li>
-                <li>Designed & developped by Nahuel Basterretche using some <a
-                        href="/About/index.html#useful-resources">useful resources</a></li>
-            </ul>
+            <?php require $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
         </footer>
 
     </div>

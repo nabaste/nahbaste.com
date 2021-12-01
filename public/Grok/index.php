@@ -3,9 +3,15 @@
 <html>
 
 <head>
-<?php
-    include(‘head.php’);
-?>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
+
+<!-- Style -->
+    <link rel="stylesheet" href="../assets/css/main2.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body class="landing is-preload">
@@ -19,21 +25,21 @@
 
         <!-- Header -->
         <header id="header" class="alt">
-            <h1><a href="../index.html">Nahuel Basterretche</a></h1>
-            <?php
-                include(‘nav.php’);
-            ?>
+            <h1><a href="https://www.nahbaste.com/">Nahuel Basterretche</a></h1>
+            <nav id="nav">
+                <?php require $_SERVER['DOCUMENT_ROOT'].'/nav.php';?>
+            </nav>
         </header>
 
         <!-- Banner -->
         <section id="banner" class="small">
             <div class="inner">
 
-                <a href="../index.html"> <img src="../assets/logosmall.svg" alt="nahbaste-logo"
+                <a href="https://www.nahbaste.com/"> <img src="../assets/logosmall.svg" alt="nahbaste-logo"
                         class="nahbasteLogo"></a>
                 <div id="main">
                     <div id="section">
-                        <a href="index.html">
+                        <a href="https://www.nahbaste.com/Work">
                             <h1 id="section5" class="text-focus-in">Work</h1>
                         </a>
                     </div>
@@ -50,9 +56,13 @@
                     <section>
                         <header>
                             <h4>Grok</h4>
-                            <p>Public bicycles system with gamification mechanics. </p>
+                            <p>Grok is an interactive vr experience to understand, empathize & merge with people who have different perspectives & mental conditions such as adhd schizophrenia & autism. </p>
                         </header>
                     </section>
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/651126224?h=9fe345565f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Grok - Vision Video Updated"></iframe></div>
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/651128459?h=06915e57f2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Grok - Walkthrough"></iframe></div>
+
+
                 </div>
             </section>
         </article>
@@ -64,24 +74,7 @@
         <!-- Footer -->
 
         <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/nahbaste/" target=”_blank”
-                        class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://www.behance.net/nahbaste" target=”_blank” class="icon brands fa-behance"><span
-                            class="label">Behance</span></a></li>
-                <li><a href="https://www.instagram.com/nahbaste" target=”_blank” class="icon brands fa-instagram"><span
-                            class="label">Instagram</span></a></li>
-                <li><a href="#" target=”_blank” class="icon brands fa-github"><span class="label">Github</span></a>
-                </li>
-                <li><a href="mailto:contact@nahbaste.com" target=”_blank” class="icon solid fa-envelope"><span
-                            class="label">Email</span></a>
-                </li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; nahbaste</li>
-                <li>Designed & developped by Nahuel Basterretche using some <a
-                        href="/About/index.html#useful-resources">useful resources</a></li>
-            </ul>
+            <?php require $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
         </footer>
 
     </div>
@@ -95,6 +88,7 @@
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
 </body>
 
